@@ -1,0 +1,36 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="UI Suite" preserve-order="true">
+    <test name="Succeeded">
+        <classes>
+            <class name="tests.BasicWebPageTests"/>
+            <class name="tests.ElementAttributesExamplesTests"/>
+            <class name="tests.HtmlTableTests"/>
+            <class name="tests.HtmlDynamicTableTests"/>
+            <class name="tests.AlertBoxesTests"/>
+            <class name="tests.FakeAlertsTests"/>
+            <class name="tests.HtmlFormTests"/>
+            <!--            <class name="tests.Html5FormTests"/>-->
+            <!--            <class name="tests.BasicAjaxTests"/>-->
+            <class name="tests.WindowsLinkTests"/>
+            <class name="tests.DragAndDropTests"/>
+            <!--            <class name="tests.JsValidationTests"/>-->
+            <class name="tests.KeyAndClickEventTests"/>
+            <class name="tests.RedirectTests"/>
+            <class name="tests.HoverTests"/>
+            <class name="tests.DynamicButtons01Tests"/>
+            <class name="tests.DynamicButtons02Tests"/>
+            <class name="tests.FramesTests"/>
+            <class name="tests.DownloadTests"/>
+            <class name="tests.ProgressBarsTests"/>
+            <class name="tests.UploadFileTests"/>
+        </classes>
+    </test>
+
+    <test name="Failed">
+        <classes>
+            <class name="tests.JsValidationTests"/>
+            <class name="tests.Html5FormTests"/>
+            <class name="tests.BasicAjaxTests"/>
+        </classes>
+    </test>
+</suite>
